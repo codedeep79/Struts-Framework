@@ -14,8 +14,14 @@
 <h1>Hello World Example</h1>
 
 <form action="hello">
-  <label for="name">Enter your name</label><br/>
-  <input type="text" name="name"/>
+  <label for="name">Enter your name:</label><br/>
+  <input type="text" name="name"/><br/>
+  <label for="address">Enter your address:</label><br/>
+  <input type="text" name="address"/><br/>
+  <label for="phonenumber">Enter your phone number:</label><br/>
+  <input type="text" name="phonenumber"/><br/>
+  <label for="status">Enter your status:</label><br/>
+  <input type="text" name="status"/><br/>
   <input type="submit" value="Submit"/>
 </form>
 </body>
