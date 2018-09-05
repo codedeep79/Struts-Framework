@@ -15,7 +15,7 @@
      <h1>Updated Account</h1>
         <img src="<s:url value="/images/logo.jpg"/>" width="200px" height="100px" alt="logo">
         <s:actionerror />
-        <s:form action="/register" method="post">
+        <s:form action="/forgot" method="post">
             <s:textfield name="email"            key="label.email" size="20" />
             <s:textfield name="confirmpassword"  key="label.confirmpassword" size="20" />
             <s:password  name="password"         key="label.password" size="20" />
